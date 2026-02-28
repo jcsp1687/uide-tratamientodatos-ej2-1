@@ -31,19 +31,25 @@ git checkout main
 git merge feature/nlp-translation
 
 4. Instalación y Ejecución Local
+
 Clonar el repositorio:
 
 Bash #
+
 git clone https://github.com/jcsp1687/uide-tratamientodatos-ej2-1
+
 cd D:\Master\tratamientodatos\ejerciciopractico2\Parte1
+
 Instalar dependencias:
 
 Bash #
+
 pip install fastapi uvicorn textblob deep-translator
 
 Correr la API:
 
 Bash #
+
 python -m uvicorn main:app --reload
 
 5. Procesamiento de Datos (Puntos Extra)
