@@ -52,7 +52,7 @@ Bash #
 
 python -m uvicorn main:app --reload
 
-5. Procesamiento de Datos (Puntos Extra)
+5. Procesamiento de Datos
 
 La API no se limita a un análisis léxico básico. Se implementó una Solución Tecnológica avanzada:
 
